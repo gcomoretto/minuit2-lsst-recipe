@@ -15,7 +15,7 @@ fi
 
 export CXXFLAGS="${CXXFLAGS} -fPIC -std=c++14 -D_GLIBCXX_USE_CXX11_ABI=0"
 
-./configure --prefix=${PREFIX}
+./configure --prefix=${PREFIX} --disable-openmp --libdir=$PREFIX/lib
 
 make
 make install

@@ -7,8 +7,8 @@ source:
 
 
 build:
-  number: 0
-  string: lsstdm_0
+  number: 1
+  string: lsstdm_1
 
 requirements:
    build:
